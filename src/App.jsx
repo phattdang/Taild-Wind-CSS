@@ -6,6 +6,7 @@ import Form from "./L04_form/Form";
 import FormPromax from "./L05_form_promax/FormPromax";
 import NavigationBar from "./L06_NavigationBar/NavigationBar";
 import PricingTable from "./L07_PricingTable/PricingTable";
+import PricingTableV2 from "./L08_PricingTable_P2/PricingTableV2";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         {/* <Form /> */}
         {/* <FormPromax /> */}
         {/* <NavigationBar /> */}
-        <PricingTable />
+        {/* <PricingTable /> */}
+        <PricingTableV2 />
       </div>
     </>
   );
